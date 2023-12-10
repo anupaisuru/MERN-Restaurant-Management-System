@@ -1,0 +1,52 @@
+.Customerprofile .cp-content{
+    height: 80vh;
+    
+}
+
+.Customerprofile .cp-firstLine .FN{
+    position: absolute;
+    width: 445px;
+    height: 72px;
+    left: 199px;
+    top: 86px;
+}
+
+.Customerprofile .cp-firstLine .LN{
+    position: absolute;
+    width: 445px;
+    height: 72px;
+    left: 705px;
+    top: 86px;
+}
+
+.Customerprofile .cp-secondLine .Em{
+    position: absolute;
+    width: 445px;
+    height: 72px;
+    left: 199px;
+    top: 189px;
+}
+
+.Customerprofile .cp-secondLine .Pn{
+    position: absolute;
+    width: 445px;
+    height: 72px;
+    left: 705px;
+    top: 189px;
+}
+
+.Customerprofile .cp-thirdLine{
+    position: absolute;
+    width: 961px;
+    height: 73px;
+    left: 199px;
+    top: 290px;
+}
+
+.Customerprofile .cp-udBtn .cp-upd{
+    position: absolute;
+    left: 199px;
+    top: 400px;
+    border-radius: 5px;
+}
+

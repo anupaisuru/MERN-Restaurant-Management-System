@@ -1,0 +1,15 @@
+.sp{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 950px;
+    gap:20px;
+    
+}
+
+.search-box {
+    height: 40px !important;
+  }
+  
+.pdf-button {
+    height: 40px !important;
+}

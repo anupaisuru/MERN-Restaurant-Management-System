@@ -1,0 +1,108 @@
+
+.billinfo-content{
+    min-height: 80vh;
+}
+
+.bill-content .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.bill-content input{
+    background-color: #EEEDED;
+    padding: 5px;
+}
+
+.bill-content .error,.payment-content .error{
+    font-size: 14px;
+    color: red;
+}
+
+
+.bill-content .righ-billInfo{
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.payment-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-content .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+}
+
+.payment-content input{
+    background-color: #EEEDED;
+    padding: 10px;
+}
+
+.payment-content input,.btn2-payment,.btn3-payment{
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.payment-content .btn2-payment{
+    background: #2BA003;
+    border: 1px solid #2BA003;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 400px;
+    height: 56px;
+}
+
+
+
+.payment-content .btn3-payment{
+    background: #EB4747;
+    border: 1px solid #EB4747;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 400px;
+    height: 56px;
+    
+} 
+
+.billinfo-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.payment-content{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+}
+
+.bill-content{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    
+}

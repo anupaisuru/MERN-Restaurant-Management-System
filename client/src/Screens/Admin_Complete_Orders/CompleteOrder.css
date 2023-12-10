@@ -1,0 +1,5 @@
+.table-container{
+    height: 61vh;
+    overflow: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,170 @@
+.first-line,.second-line{
+  display: flex;
+  flex-direction: row;
+}
+
+.adc{
+ height: 80vh;
+}
+
+/* total customer style */
+
+.total-customers{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CBCAFF;
+  background-color: #CBCAFF;
+  position: absolute;
+  width: 332px;
+  height: 100px;
+  left: 429px;
+  top: 100px;
+  border-radius: 16px;
+}
+
+.total-customers img{
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  border-radius: 96px;
+}
+
+.total-customers p{
+  position: absolute;
+  left: 120px;
+  top: 23px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.total-customers p.cus-count{
+  top: 53px;
+  left: 160px;
+}
+
+/* total food style */
+
+.total-foods{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CBCAFF;
+  background-color: #CBCAFF;
+  position: absolute;
+  border-radius: 16px;
+  width: 332px;
+  height: 100px;
+  left: 943px;
+  top: 100px;
+}
+
+.total-foods img{
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  border-radius: 96px;
+}
+
+.total-foods p{
+  position: absolute;
+  left: 150px;
+  top: 23px;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.total-foods p.sales-count{
+  top: 53px;
+  left: 180px;
+}
+
+/* monthly earning style */
+
+.monthly-earning{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CBCAFF;
+  background-color: #CBCAFF;
+  position: absolute;
+  border-radius: 16px;
+  width: 332px;
+  height: 100px;
+  left: 429px;
+  top: 220px;
+}
+
+.monthly-earning img{
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  border-radius: 96px;
+}
+
+.monthly-earning p{
+  position: absolute;
+  left: 120px;
+  top: 23px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.monthly-earning p.me-count{
+  top: 50px;
+  left: 160px;
+}
+
+/* today sales style */
+
+.today-sales{
+display: flex;
+flex-direction: column;
+border: 1px solid #CBCAFF;
+background-color: #CBCAFF;
+position: absolute;
+border-radius: 16px;
+width: 332px;
+height: 100px;
+left: 943px;
+top: 220px;
+}
+
+.today-sales img{
+position: absolute;
+left: 10px;
+top: 13px;
+border-radius: 96px;
+}
+
+.today-sales p{
+position: absolute;
+left: 150px;
+top: 23px;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+
+.today-sales p.sales-count{
+top: 50px;
+left: 180px;
+}
+
+.pchrrt{
+  margin-top: 170px;
+  margin-right: 600px;
+}
+
+.row{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,49 @@
+
+
+
+
+.page-item,.page-link{
+    padding: 5px !important;
+    font-size: 15px;
+    border: none;
+   
+}
+
+.active .page-link{
+    background-color: #157347 !important;
+    border-radius: 4px;
+}
+ 
+
+ th{
+    text-align: center !important;
+}
+td{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pagination_main{
+    margin-top: 20px !important;
+    bottom: 0;
+    
+}
+
+.page-item{
+    border-radius: 14px !important;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.r2  {
+    overflow-y: scroll !important;
+}
+
+.Customer-row{
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+
+.Header .ld{
+    /* margin-left: 1230px !important; */
+    /* font-size: 18px !important; */
+    
+  }
+  
+.Header .mclas {
+    width: 100%;
+    height: 8vh;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px !important;
+  }
+
+  
+.Header .tlogo {
+    color: #5E5BFF;
+    font-size: 28px;
+    font-family: poppins;
+  }
+
+.Header .plists {
+    color: black !important;
+   }
+
+.Header  a:hover {
+    color: #0662eb !important;
+  }
+
+.Header .h-icon{
+    margin-right: 40px;
+    padding: 0px;
+    margin-top: 10px;
+  }

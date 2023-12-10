@@ -1,0 +1,35 @@
+.korderbox  .btngroup{
+    width: 87%;
+    display: flex;
+    margin-left: 10px;
+    
+    justify-content: space-evenly;
+}
+.korderbox  {
+    border-radius: 9px !important;
+    text-align: center;
+}
+.korderbox  td{
+    text-align: center;
+    padding: 20px !important;
+}
+
+.korderbox  .btn{
+    padding: 5px !important;
+}
+
+.btngroup{
+    text-align: center;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.count{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    width: 50px !important;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    min-height: 12vh;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: space-around;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px ;
+
+}
+
+.contact {
+    padding-left: 40px;
+}
+
+.icon {
+    padding-right: 40px;
+}
+
+.buttom {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grop{
+    margin-bottom: 3px;
+}
+.mi{
+    size: 50px;
+}

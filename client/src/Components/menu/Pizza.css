@@ -1,0 +1,77 @@
+.hmenu body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hmenu code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hmenu .nav-link{
+  color: blue !important;
+}
+.hmenu .navbar-brand{
+  color: blue !important;
+}
+
+.hmenu h1{
+  font-size: 20px !important;
+}
+
+.hmenu .flex-container{
+  display: flex !important;
+}
+
+.hmenu .btn-red{
+  background-color: red !important;
+  color:white !important;
+}
+.hmenu .btn-green{
+  background-color: green !important;
+  color:white !important;
+}
+
+.hmenu select{
+  box-shadow:none;
+  border-color: black;
+}
+
+.hmenu .uppercase{
+  text-transform: uppercase !important;
+}
+
+.hmenu .food-image{
+  width: 70%
+}
+.hmenu-suggestions {
+  position: absolute;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.hmenu-suggestion {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hmenu-suggestion:hover {
+  background-color: #eee;
+}
+.hmenu .btn-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.hmenu .height{
+  height: 50px;
+}

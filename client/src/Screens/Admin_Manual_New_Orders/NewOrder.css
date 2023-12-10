@@ -1,0 +1,108 @@
+.new-order-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+}
+
+.left {
+    padding-right: 50px;
+}
+
+.left-header {
+    position: relative;
+    top: 8px;
+    right: 270px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.customer-name {
+    position: relative;
+    top: 10px;
+}
+
+.order-type {
+    position: relative;
+    bottom: 72px;
+    left: 350px;
+}
+
+.mobile {
+    position: relative;
+    bottom: 60px;
+}
+
+.order-status {
+    position: relative;
+    bottom: 140px;
+    left: 350px;
+}
+
+.add-item-box {
+    position: relative;
+    bottom: 120px;
+}
+
+.btn-add-order {
+    position: relative;
+    right: 280px;
+    bottom: 100px;
+}
+
+.read-value {
+    font-weight: 600;
+}
+
+::first-letter {
+    text-transform: uppercase;
+}
+
+.right {
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    background: url(../../assets/images/Menu.jpg);
+    background-position: 75% 190%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1),
+        inset 0px 0px 4px rgba(0, 0, 0, 0.1),
+        inset 0px 0px 4px rgba(0, 0, 0, 0.1),
+        inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.itembox-container {
+    position: relative;
+    top: 25px;
+    border: 1.8px solid #5E5BFF;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.total {
+    position: relative;
+    left: 460px;
+    top: 22px;
+    font-size: x-large;
+}
+
+.err {
+    font-size: small;
+    color: red;
+    font-weight: 600;
+}

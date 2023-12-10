@@ -1,0 +1,72 @@
+.register .register-content{
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.register .left{
+    flex: 5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.register.from-group{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.register input{
+    background-color: #EEEDED;
+    padding: 10px;
+}
+.register input,.btn-register{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.register .btn-register{
+    background: #5E5BFF;
+    border: 1px solid #5E5BFF;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.register .notice{
+    color: #959595;
+}
+
+
+.register .right-register{
+    flex: 4;
+    background-image: url('https://cdn.dribbble.com/users/1731254/screenshots/8190185/media/259571c744896e767018387b7a37671e.png?compress=1&resize=1000x750&vertical=top');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register Link{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.register-content .error{
+    font-size: 14px;
+    color: red;
+}

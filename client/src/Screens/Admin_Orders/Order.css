@@ -1,0 +1,43 @@
+.table-container {
+    position: relative;
+    top: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.common-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.left-container h3{
+    font-weight: bold;
+    text-shadow: 0px 2.5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    font-weight: 600;
+}
+
+.right-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: left;
+}
+
+

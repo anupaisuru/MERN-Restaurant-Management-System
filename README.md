@@ -8,3 +8,14 @@ Features:
 3. Dashboard Management.
 4. Menu management.
 5. Employee Management.
+
+Technologies Used:
+
+1. MongoDB
+2. Express.js
+3. React.js
+4. Node.js
+
+Tools Used:
+
+1. Postman

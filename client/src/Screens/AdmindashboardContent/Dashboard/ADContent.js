@@ -11,7 +11,6 @@ function ADContent() {
   const [customerCount, setCustomerCount] = useState(0);
   const [salesCount, setSalesCount] = useState(0);
   const [productCount, setProductCount] = useState(0);
-  const [curDT, setCurDT] = useState(new Date().toLocaleString());
 
   useEffect(() => {
     async function fetchCustomerCount() {
@@ -79,14 +78,7 @@ function ADContent() {
   useEffect(() => {
     setInterval(() => {
       window.location.reload();
-    }, 30000);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurDT(new Date().toLocaleString());
-    }, 1000);
-    return () => clearInterval(interval);
+    }, 600000);
   }, []);
 
   return (
@@ -98,8 +90,6 @@ function ADContent() {
       ) : (
         <>
           <div>
-            <p className="card-text text-end text-dark">{curDT}</p>
-
             {/* first line */}
             <div className="first-line">
               <div className="total-customers">
